@@ -6,5 +6,10 @@ import { Component } from '@angular/core';
   styleUrls: ['./breadCrumb.component.css']
 })
 export class BreadCrumbComponent {
- 
-}
+    breadcrumbs$: Observable<Breadcrumb[]>; 
+   
+    constructor(private readonly breadcrumbService: BreadcrumbService) { 
+      this.breadcrumbs$ = breadcrumbService.breadcrumbs$; 
+    } 
+  } 
+

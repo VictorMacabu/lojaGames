@@ -13,7 +13,7 @@ body {
   
   /* Left column (menu) */
   .left {
-    flex: 35%;
+    flex: 20%;
     padding: 15px 0;
   }
   
@@ -23,7 +23,7 @@ body {
   
   /* Right column (page content) */
   .right {
-    flex: 65%;
+    flex: 80%;
     padding: 15px;
   }
   

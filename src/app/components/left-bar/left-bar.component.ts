@@ -8,10 +8,11 @@ import { Component } from "@angular/core";
 
 
 export class LeftBarComponent {
-    menus : any = ['PHP', 'Js', 'JAVA', 'C#', 'Go'];
+/*    menus : any = ['PHP', 'Js', 'JAVA', 'C#', 'Go'];
     pesquisar = '';
     filter(list : String[]) {
         return list.filter(item => item.toLowerCase().search(this.pesquisar.toLowerCase())!= -1);
     }
+*/
 
 }

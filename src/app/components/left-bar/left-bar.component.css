@@ -140,6 +140,10 @@ a.download:hover {
     padding: 15px
 }
 
+.list-unstyled p{
+    margin-bottom: 0;
+}
+
 @media(maz-width:768px) {
     #sidebar {
         margin-left: -250px

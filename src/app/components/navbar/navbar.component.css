@@ -1,3 +1,11 @@
 .navbar-expand-sm ,.navbar-collapse{
   justify-content: flex-end;
 }
+.logoLojaGames{
+  margin-left: 30px;
+  border-radius: 15px;
+  width: 130px;
+}
+.navbar ,.navbar-expand-sm, .navbar-dark, .bg-dark{
+padding: 5px;
+}

@@ -1,4 +1,5 @@
-import { Component } from "@angular/core";
+import { ProductService } from './../product.service';
+import { Component, OnInit } from "@angular/core";
 
 @Component({
     selector: 'left-bar-component',
@@ -7,12 +8,25 @@ import { Component } from "@angular/core";
 })
 
 
-export class LeftBarComponent {
-/*    menus : any = ['PHP', 'Js', 'JAVA', 'C#', 'Go'];
-    pesquisar = '';
-    filter(list : String[]) {
-        return list.filter(item => item.toLowerCase().search(this.pesquisar.toLowerCase())!= -1);
+export class LeftBarComponent implements OnInit {
+
+    menuCG: any = [];
+
+    constructor(private productService: ProductService) {
+
+
+        var listCG = new ProductService();
+
+        this.menuCG = this.productService.getProductsCG(); /* passou o array*/
+
+        /*pesquisar = '';
+        filter(list : String[]) {
+            return list.filter(item => item.toLowerCase().search(this.pesquisar.toLowerCase())!= -1);
+        }*/
     }
-*/
+
+    ngOnInit() {
+
+    }
 
 }

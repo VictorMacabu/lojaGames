@@ -1,3 +1,4 @@
+import { ProductService } from './components/product.service';
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
@@ -25,7 +26,7 @@ import { CardsComponent } from './components/cards/cards.component';
     FormsModule
     
   ],
-  providers: [],
+  providers: [ProductService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

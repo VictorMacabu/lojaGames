@@ -1,10 +1,17 @@
 .navbar-expand-sm ,.navbar-collapse{
   justify-content: flex-end;
 }
-.logoLojaGames{
-  margin-left: 30px;
-  border-radius: 15px;
-  width: 130px;
+
+.container-fluid{
+  padding-left: 0;
+}
+h1 {
+  margin: 0;
+  text-align: center;
+  color: #fff;
+  font-size: 45px;
+  text-align: center;
+  font-weight: lighter;
 }
 .navbar ,.navbar-expand-sm, .navbar-dark, .bg-dark{
 padding: 5px;

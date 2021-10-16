@@ -1,6 +1,7 @@
 .cardSpace{
     background-color: rgba(0, 0, 0, 0.527);
     display: inline-flex;
+    justify-content: space-around;
     margin: 20px;
     height: 300px;
     width: 250px;

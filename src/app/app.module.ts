@@ -7,13 +7,15 @@ import { BreadCrumbComponent } from './components/breadCrumb/breadCrumb.componen
 import { LeftBarComponent } from './components/left-bar/left-bar.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
 import { FormsModule } from '@angular/forms';
+import { Teste1Component } from './components/teste1/teste1.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     LeftBarComponent,
     BreadCrumbComponent,
-    NavbarComponent
+    NavbarComponent,
+    Teste1Component
   ],
   imports: [
     BrowserModule,

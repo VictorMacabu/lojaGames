@@ -7,7 +7,8 @@ import { BreadCrumbComponent } from './components/breadCrumb/breadCrumb.componen
 import { LeftBarComponent } from './components/left-bar/left-bar.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
 import { FormsModule } from '@angular/forms';
-import { Teste1Component } from './components/teste1/teste1.component';
+import { CardColectionComponent } from './components/card-colection/card-colection.component';
+import { CardsComponent } from './components/cards/cards.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import { Teste1Component } from './components/teste1/teste1.component';
     LeftBarComponent,
     BreadCrumbComponent,
     NavbarComponent,
-    Teste1Component
+    CardColectionComponent,
+    CardsComponent
   ],
   imports: [
     BrowserModule,

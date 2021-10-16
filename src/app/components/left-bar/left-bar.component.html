@@ -1,54 +1,83 @@
 <div class="wrapper">
-  <nav id="sidebar">
-      <div class="sidebar-header">
-          <h3>LOJAGAMES</h3>
-      </div>
-      <ul class="list-unstyled components">
-          <p>CATEGORIAS</p>
-          <li> <a href="#homeSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Card Games</a>
-              <ul class="collapse list-unstyled" id="homeSubmenu">
-                <li> <a href="#homeSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Magic</a>
-                    <ul class="collapse list-unstyled" id="homeSubmenu">
-                        <li> <a href="#">Box</a> </li>
-                        <li> <a href="#">Booster</a> </li>
-                        <li> <a href="#">Deck inicial</a> </li>
-                    </ul>    
-                    <li> <a href="#homeSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Pokémon</a>
-                        <ul class="collapse list-unstyled" id="homeSubmenu">
+    <nav class="menu" id="sidebar">
+        <div class="sidebar-header">
+            <h1>LOJAGAMES</h1>
+        </div>
+        <ul class="list-unstyled components">
+            <p>CATEGORIAS</p>
+            <hr>
+            <li> <a href="#homeSubmenu" class="dropdown-toggle">Card Games</a>
+                <ul class="subMenu" id="homeSubmenu">
+                    <li> <a href="#" class="dropdown-toggle">Magic</a>
+                        <ul class="subMenu">
                             <li> <a href="#">Box</a> </li>
                             <li> <a href="#">Booster</a> </li>
                             <li> <a href="#">Deck inicial</a> </li>
                         </ul>
-                <li> <a href="#homeSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Yu-Gi-Oh!</a>
-                    <ul class="collapse list-unstyled" id="homeSubmenu">
-                        <li> <a href="#">Box</a> </li>
-                        <li> <a href="#">Booster</a> </li>
-                        <li> <a href="#">Deck inicial</a> </li>
-                    </ul>
-              </ul>
-          </li>
-          <li> <a href="#">Users</a> </li>
-          <li> <a href="#pageSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Subscribers</a>
-              <ul class="collapse list-unstyled" id="pageSubmenu">
-                  <li> <a href="#">Active</a> </li>
-                  <li> <a href="#">Idle</a> </li>
-                  <li> <a href="#">Non Active</a> </li>
-              </ul>
-          </li>
-          <li> <a href="#">Timeline</a> </li>
-          <li> <a href="#">Live Chat</a> </li>
-          <li> <a href="#">Likes</a> </li>
-          <li> <a href="#">Comments</a> </li>
-      </ul>
-  </nav>
-  <div class="content">
-      <bread-crumb-component></bread-crumb-component>   
-      <div class="content-wrapper">
-     
-      </div>
-  </div>
+                    <li> <a href="#" class="dropdown-toggle">Pokémon</a>
+                        <ul class="subMenu">
+                            <li> <a href="#">Box</a> </li>
+                            <li> <a href="#">Booster</a> </li>
+                            <li> <a href="#">Deck inicial</a> </li>
+                        </ul>
+                    <li> <a href="#" class="dropdown-toggle">Yu-Gi-Oh!</a>
+                        <ul class="submenu">
+                            <li> <a href="#">Box</a> </li>
+                            <li> <a href="#">Booster</a> </li>
+                            <li> <a href="#">Deck inicial</a> </li>
+                        </ul>
+                </ul>
+            </li>
+            <li> <a href="#homeSubmenu" class="dropdown-toggle">Card Games</a>
+                <ul class="subMenu" id="homeSubmenu">
+                    <li> <a href="#" class="dropdown-toggle">Magic</a>
+                        <ul class="subMenu">
+                            <li> <a href="#">Box</a> </li>
+                            <li> <a href="#">Booster</a> </li>
+                            <li> <a href="#">Deck inicial</a> </li>
+                        </ul>
+                    <li> <a href="#" class="dropdown-toggle">Pokémon</a>
+                        <ul class="subMenu">
+                            <li> <a href="#">Box</a> </li>
+                            <li> <a href="#">Booster</a> </li>
+                            <li> <a href="#">Deck inicial</a> </li>
+                        </ul>
+                    <li> <a href="#" class="dropdown-toggle">Yu-Gi-Oh!</a>
+                        <ul class="submenu">
+                            <li> <a href="#">Box</a> </li>
+                            <li> <a href="#">Booster</a> </li>
+                            <li> <a href="#">Deck inicial</a> </li>
+                        </ul>
+                </ul>
+            </li>
+            <li> <a href="#homeSubmenu" class="dropdown-toggle">Card Games</a>
+                <ul class="subMenu" id="homeSubmenu">
+                    <li> <a href="#" class="dropdown-toggle">Magic</a>
+                        <ul class="subMenu">
+                            <li> <a href="#">Box</a> </li>
+                            <li> <a href="#">Booster</a> </li>
+                            <li> <a href="#">Deck inicial</a> </li>
+                        </ul>
+                    <li> <a href="#" class="dropdown-toggle">Pokémon</a>
+                        <ul class="subMenu">
+                            <li> <a href="#">Box</a> </li>
+                            <li> <a href="#">Booster</a> </li>
+                            <li> <a href="#">Deck inicial</a> </li>
+                        </ul>
+                    <li> <a href="#" class="dropdown-toggle">Yu-Gi-Oh!</a>
+                        <ul class="submenu">
+                            <li> <a href="#">Box</a> </li>
+                            <li> <a href="#">Booster</a> </li>
+                            <li> <a href="#">Deck inicial</a> </li>
+                        </ul>
+                </ul>
+            </li>
+        </ul>
+    </nav>
+    <div class="content">
+        <bread-crumb-component></bread-crumb-component>
+        <div class="content-wrapper">
+            <app-card-colection></app-card-colection>
+        </div>
+    </div>
 </div>
-<!-- CSS only -->
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-<!-- JavaScript Bundle with Popper -->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>

@@ -13,13 +13,12 @@ export class LeftBarComponent implements OnInit {
     menuCG: any = [];
 
     constructor(private productService: ProductService) {
+        /*
+            var listCG = new ProductService();
+    
+            this.menuCG = this.productService.getProductsCG(); // passou o array
 
-
-        var listCG = new ProductService();
-
-        this.menuCG = this.productService.getProductsCG(); /* passou o array*/
-
-        /*pesquisar = '';
+        pesquisar = '';
         filter(list : String[]) {
             return list.filter(item => item.toLowerCase().search(this.pesquisar.toLowerCase())!= -1);
         }*/

@@ -10,6 +10,12 @@ import { NavbarComponent } from './components/navbar/navbar.component';
 import { FormsModule } from '@angular/forms';
 import { CardColectionComponent } from './components/card-colection/card-colection.component';
 import { CardsComponent } from './components/cards/cards.component';
+import { HomeComponent } from './components/home/home.component';
+import { PageNotFoundComponent } from './components/page-not-found/page-not-found.component';
+import { CardGameComponent } from './components/card-game/card-game.component';
+import { PokemonCardComponent } from './components/pokemon-card/pokemon-card.component';
+import { MagicCardComponent } from './components/magic-card/magic-card.component';
+import { YugiohCardComponent } from './components/yugioh-card/yugioh-card.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +24,13 @@ import { CardsComponent } from './components/cards/cards.component';
     BreadCrumbComponent,
     NavbarComponent,
     CardColectionComponent,
-    CardsComponent
+    CardsComponent,
+    HomeComponent,
+    PageNotFoundComponent,
+    CardGameComponent,
+    PokemonCardComponent,
+    MagicCardComponent,
+    YugiohCardComponent
   ],
   imports: [
     BrowserModule,

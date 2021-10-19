@@ -1,6 +1,7 @@
 <ul class="breadcrumb">
-    <li><a href="#">Home</a></li>
-    <li><a href="#">Card Games</a></li>
-    <li><a href="#"></a>Pokémon</li>
-    <li>Blister</li>
+    <li><a [routerLink]="['/home']" routerLinkActive="active" >Home</a></li>
+    <!-- <li><a [routerLink]="['/cardGame']" routerLinkActive="active" >Card Games</a></li>
+    <li><a [routerLink]="['/Pokemon']" routerLinkActive="active"></a>Pokémon</li>
+    <li>Blister</li> -->
   </ul>
+  <router-outlet></router-outlet>

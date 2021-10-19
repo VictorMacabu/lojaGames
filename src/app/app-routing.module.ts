@@ -1,10 +1,28 @@
+import { PageNotFoundComponent } from './components/page-not-found/page-not-found.component';
+import { PokemonCardComponent } from './components/pokemon-card/pokemon-card.component';
+import { CardGameComponent } from './components/card-game/card-game.component';
+import { HomeComponent } from './components/home/home.component';
 import { AppComponent } from './app.component';
 import { ModuleWithProviders, NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { LeftBarComponent } from './components/left-bar/left-bar.component'
 
 const routes: Routes = [
-
+  {
+    redirectTo: '/home', pathMatch: 'full' 
+  },
+  {
+    path: 'home', component: HomeComponent
+  },
+  {
+    path: 'cardGame', component: CardGameComponent
+  },
+  {
+    path: 'pokemon', component: PokemonCardComponent
+  },
+  {
+    path: "**", component: PageNotFoundComponent
+  },
   
 ];
 @NgModule({

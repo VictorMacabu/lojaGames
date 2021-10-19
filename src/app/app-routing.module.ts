@@ -9,7 +9,7 @@ import { LeftBarComponent } from './components/left-bar/left-bar.component'
 
 const routes: Routes = [
   {
-    redirectTo: '/home', pathMatch: 'full' 
+    path: '',redirectTo: '/home', pathMatch: 'full' 
   },
   {
     path: 'home', component: HomeComponent

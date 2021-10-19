@@ -9,7 +9,7 @@ body {
 .menu {
     background-color: #023364;
     width: 240px;
-    height: auto;
+    height: 100%;
     color: #fff;
     position: fixed;
     display: inline-block;
@@ -24,6 +24,7 @@ body {
 .menu ul li {
     background-color: #023364;
     font-size: 20px;
+    border-bottom: #fafafa 1px solid ;
     position: relative;
     text-align: end;
     padding: 5px;
@@ -62,7 +63,7 @@ body {
     text-align: end;
     padding: 5px;
     display: none;
-    top: 45%;
+    top: 40%;
     position: absolute;
     margin-left: 230px;
 }

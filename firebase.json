@@ -3,7 +3,8 @@
     "rules": "database.rules.json"
   },
   "hosting": {
-    "public": "src/app/app.component.html",
+    "public": "dist",
+    "cleanUrls": "true",
     "ignore": [
       "firebase.json",
       "**/.*",
@@ -12,7 +13,7 @@
     "rewrites": [
       {
         "source": "**",
-        "destination": "src/app/app.component.html"
+        "destination": "/index.html"
       }
     ]
   }

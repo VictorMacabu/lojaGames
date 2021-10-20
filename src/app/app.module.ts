@@ -16,6 +16,9 @@ import { CardGameComponent } from './components/card-game/card-game.component';
 import { PokemonCardComponent } from './components/pokemon-card/pokemon-card.component';
 import { MagicCardComponent } from './components/magic-card/magic-card.component';
 import { YugiohCardComponent } from './components/yugioh-card/yugioh-card.component';
+import { initializeApp,provideFirebaseApp } from '@angular/fire/app';
+import { environment } from '../environments/environment';
+import { provideFirestore,getFirestore } from '@angular/fire/firestore';
 
 @NgModule({
   declarations: [
@@ -35,7 +38,9 @@ import { YugiohCardComponent } from './components/yugioh-card/yugioh-card.compon
   imports: [
     BrowserModule,
     AppRoutingModule,
-    FormsModule
+    FormsModule,
+    provideFirebaseApp(() => initializeApp(environment.firebase)),
+    provideFirestore(() => getFirestore())
     
   ],
   providers: [ProductService],

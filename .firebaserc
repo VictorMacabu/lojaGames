@@ -1,5 +1,14 @@
 {
   "projects": {
     "default": "lojagames-tecemergentes"
+  },
+  "targets": {
+    "lojagames-tecemergentes": {
+      "hosting": {
+        "lojaGames": [
+          "lojagames-tecemergentes"
+        ]
+      }
+    }
   }
 }

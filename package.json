@@ -6,7 +6,12 @@
     "start": "ng serve",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
-    "test": "ng test"
+    "test": "ng test",
+    "clean": "npx del dist",
+    "prebuild": "npm run clean",
+    "build:prod": "ELEVENTY_ENV=prod npx eleventy",
+    "predeploy": "npm run build:prod",
+    "deploy": "npx firebase deploy"
   },
   "private": true,
   "dependencies": {

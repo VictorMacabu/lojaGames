@@ -33,7 +33,7 @@ import { provideFirestore,getFirestore } from '@angular/fire/firestore';
     CardGameComponent,
     PokemonCardComponent,
     MagicCardComponent,
-    YugiohCardComponent
+    YugiohCardComponent,
   ],
   imports: [
     BrowserModule,

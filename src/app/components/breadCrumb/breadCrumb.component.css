@@ -1,24 +1,28 @@
 ul.breadcrumb {
-    margin-left: 10px;
-    margin-top: 5px;
-    padding: 0px 16px 10px 0px;
-    list-style: none;
-    background-color: rgba(238, 238, 238, 0);
-  }
-  ul.breadcrumb li {
-    display: inline;
-    font-size: 18px;
-  }
-  ul.breadcrumb li+li:before {
-    padding: 8px;
-    color: black;
-    content: "/\00a0";
-  }
-  ul.breadcrumb li a {
-    color: #0275d8;
-    text-decoration: none;
-  }
-  ul.breadcrumb li a:hover {
-    color: #01447e;
-    text-decoration: underline;
-  }
+  margin-left: 10px;
+  margin-top: 5px;
+  padding: 0px 16px 10px 0px;
+  list-style: none;
+  background-color: rgba(238, 238, 238, 0);
+}
+
+ul.breadcrumb li {
+  display: inline;
+  font-size: 18px;
+}
+
+ul.breadcrumb li+li:before {
+  padding: 8px;
+  color: black;
+  content: "/\00a0";
+}
+
+ul.breadcrumb li a {
+  color: #0275d8;
+  text-decoration: none;
+}
+
+ul.breadcrumb li a:hover {
+  color: #01447e;
+  text-decoration: underline;
+}

@@ -1,7 +1,9 @@
-<ul class="breadcrumb">
-    <li><a [routerLink]="['/home']" routerLinkActive="active" >Home</a></li>
-    <!-- <li><a [routerLink]="['/cardGame']" routerLinkActive="active" >Card Games</a></li>
-    <li><a [routerLink]="['/Pokemon']" routerLinkActive="active"></a>Pokémon</li>
-    <li>Blister</li> -->
-  </ul>
-  <router-outlet></router-outlet>
+<nav aria-label="breadcrumb">
+  <ol class="breadcrumb">
+    <li class="breadcrumb-item"><a [routerLink]="['/home']" routerLinkActive="active">Home</a></li>
+    <li class="breadcrumb-item"><a [routerLink]="['/cardGame']" routerLinkActive="active">Card Games</a></li>
+    <li class="breadcrumb-item"><a [routerLink]="['/pokemon']" routerLinkActive="active">Pokémon</a></li>
+    <li class="breadcrumb-item active" aria-current="page"><a [routerLink]="['/']" routerLinkActive="active">Blister</a></li>
+  </ol>
+</nav>
+<router-outlet></router-outlet>

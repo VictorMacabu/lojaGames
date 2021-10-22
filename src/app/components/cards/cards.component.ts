@@ -7,6 +7,8 @@ import { Component, OnInit } from '@angular/core';
 })
 export class CardsComponent implements OnInit {
 
+  imagePath: String = "gs://lojagames-tecemergentes.appspot.com/cardGames/Pokemon/Blister/BLISTER QUADRUPLO POKEMON - ESTILOS DE BATALHA ESPADA E ESCUDO 5 EEVEE.png";
+
   constructor() { }
 
   ngOnInit(): void {

@@ -5,7 +5,7 @@ import { HomeComponent } from './components/home/home.component';
 import { AppComponent } from './app.component';
 import { ModuleWithProviders, NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { LeftBarComponent } from './components/left-bar/left-bar.component'
+
 
 const routes: Routes = [
   {

@@ -3,8 +3,7 @@ import { PageNotFoundComponent } from './components/page-not-found/page-not-foun
 import { PokemonCardComponent } from './components/pokemon-card/pokemon-card.component';
 import { CardGameComponent } from './components/card-game/card-game.component';
 import { HomeComponent } from './components/home/home.component';
-import { AppComponent } from './app.component';
-import { ModuleWithProviders, NgModule } from '@angular/core';
+import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 
 
@@ -22,10 +21,10 @@ const routes: Routes = [
     path: 'pokemon', component: PokemonCardComponent
   },
   {
-    path: "**", component: PageNotFoundComponent
+    path: "blister", component: BlisterComponent
   },
   {
-    path: "blister", component: BlisterComponent
+    path: "**", component: PageNotFoundComponent 
   },
   
 ];

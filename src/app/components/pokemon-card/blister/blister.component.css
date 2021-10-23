@@ -1,3 +1,8 @@
+.container{
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
 .card{
     position:static ;
     display: inline-flex;
@@ -9,7 +14,8 @@
 }
 .card img {
     border-radius: 15px;
-    width: 200px;
+    max-width: 75%;
+    max-height: 60%;
 }
 .cardName a{
     color: inherit;
@@ -29,4 +35,13 @@
 }
 .price{
     margin: 3px;
+}
+.cardSpace{
+    border: 2px #023364 solid;
+    display: inline-flex;
+    justify-content: space-around;
+    margin: 10px;
+    padding: 10px;
+    height: 350px;
+    width: 220px;
 }

@@ -14,11 +14,8 @@
 }
 .card img {
     border-radius: 15px;
-    max-width: 75%;
-    max-height: 60%;
-}
-.cardName a{
-    color: inherit;
+    max-width: 82%;
+    max-height: 70%;
 }
 .cardName{
     font-family:Arial, Helvetica, sans-serif;

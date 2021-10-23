@@ -1,3 +1,4 @@
+import { BlisterComponent } from './components/pokemon-card/blister/blister.component';
 import { PageNotFoundComponent } from './components/page-not-found/page-not-found.component';
 import { PokemonCardComponent } from './components/pokemon-card/pokemon-card.component';
 import { CardGameComponent } from './components/card-game/card-game.component';
@@ -22,6 +23,9 @@ const routes: Routes = [
   },
   {
     path: "**", component: PageNotFoundComponent
+  },
+  {
+    path: "blister", component: BlisterComponent
   },
   
 ];

@@ -19,6 +19,11 @@ import { YugiohCardComponent } from './components/yugioh-card/yugioh-card.compon
 import { initializeApp,provideFirebaseApp } from '@angular/fire/app';
 import { environment } from '../environments/environment';
 import { provideFirestore,getFirestore } from '@angular/fire/firestore';
+import { BlisterComponent } from './components/pokemon-card/blister/blister.component';
+import { BoxEspecialComponent } from './components/pokemon-card/box-especial/box-especial.component';
+import { BoxterComponent } from './components/pokemon-card/boxter/boxter.component';
+import { KitTreinadorComponent } from './components/pokemon-card/kit-treinador/kit-treinador.component';
+import { LatasComponent } from './components/pokemon-card/latas/latas.component';
 
 @NgModule({
   declarations: [
@@ -34,6 +39,11 @@ import { provideFirestore,getFirestore } from '@angular/fire/firestore';
     PokemonCardComponent,
     MagicCardComponent,
     YugiohCardComponent,
+    BlisterComponent,
+    BoxEspecialComponent,
+    BoxterComponent,
+    KitTreinadorComponent,
+    LatasComponent,
   ],
   imports: [
     BrowserModule,

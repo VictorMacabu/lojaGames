@@ -1,2 +1,14 @@
-<p>pokemon-card route ok!</p>
-<app-card-colection></app-card-colection>
+<nav aria-label="breadcrumb">
+    <ol class="breadcrumb">
+      <li class="breadcrumb-item"><a [routerLink]="['/home']" routerLinkActive="active">Home</a></li>
+      <li class="breadcrumb-item"><a [routerLink]="['/cardGame']" routerLinkActive="active">Card Games</a></li>
+      <li class="breadcrumb-item" [routerLink]="['/pokemon']" routerLinkActive="active">Pokémon</li>
+    </ol>
+  </nav>
+<p>pokemon-card all categories route ok!</p>
+<div class="container">
+    <a href=""><h6>Blisters</h6></a>
+    <app-blister></app-blister>
+    <a href=""><h6>Box Escpecial</h6></a>
+    <app-box-especial></app-box-especial>
+</div>

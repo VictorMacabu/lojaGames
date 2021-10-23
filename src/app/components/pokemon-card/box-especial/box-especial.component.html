@@ -1,1 +1,8 @@
-<p>box-especial works!</p>
+<div class="container">
+    <div class="card cardSpace" *ngFor="let specialBox of specialBoxes" >
+        <img class="imgJustfy" [src]="specialBox.pathImage" alt="imagem Produto">
+        <h4 class="cardName"> {{specialBox.tipe}} </h4>
+        <h5 class="cardDescription">{{specialBox.name}}</h5>
+        <p class="price">{{specialBox.price}}</p>
+    </div>
+</div>

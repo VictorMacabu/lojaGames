@@ -1,1 +1,18 @@
-<p>latas works!</p>
+<div class="container">
+    <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a [routerLink]="['/home']" routerLinkActive="active">Home</a></li>
+            <li class="breadcrumb-item"><a [routerLink]="['/cardGame']" routerLinkActive="active">Card Games</a></li>
+            <li class="breadcrumb-item"><a [routerLink]="['/pokemon']" routerLinkActive="active">Pokémon</a></li>
+            <li class="breadcrumb-item" [routerLink]="['/latas']" routerLinkActive="active">Latas</li>
+        </ol>
+    </nav>
+</div>
+<div class="container">
+    <div class="card cardSpace" *ngFor="let lata of latas" >
+        <img class="imgJustfy" [src]="lata.pathImage" alt="imagem Produto">
+        <h4 class="cardName"> {{lata.tipe}} </h4>
+        <h5 class="cardDescription">{{lata.name}}</h5>
+        <p class="price">{{lata.price}}</p>
+    </div>
+</div>

@@ -1,3 +1,5 @@
+import { LatasComponent } from './components/pokemon-card/latas/latas.component';
+import { KitTreinadorComponent } from './components/pokemon-card/kit-treinador/kit-treinador.component';
 import { BoxterComponent } from './components/pokemon-card/boxter/boxter.component';
 import { BoxEspecialComponent } from './components/pokemon-card/box-especial/box-especial.component';
 import { BlisterComponent } from './components/pokemon-card/blister/blister.component';
@@ -30,6 +32,12 @@ const routes: Routes = [
   },
   {
     path: "box_especial", component: BoxEspecialComponent
+  },
+  {
+    path: "kit_treinador", component: KitTreinadorComponent
+  },
+  {
+    path: "latas", component: LatasComponent
   },
   {
     path: "**", component: PageNotFoundComponent 

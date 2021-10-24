@@ -53,7 +53,7 @@ export class DeckInicialComponent implements OnInit {
     {
       tipe: 'Deck Inicial',
       pathImage: 'assets/imgYugioh/deck_inicial/Reloaded starter.png',
-      name: 'Reloaded starter',
+      name: 'Yugi Reloaded starter',
       price: 'R$ 69,90',
     },
     {

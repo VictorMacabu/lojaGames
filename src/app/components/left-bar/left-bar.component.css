@@ -90,5 +90,6 @@ body {
 /* --------- navbar -----------*/
 .content{
     margin-left: 240px;
-    display: inline-block;
+    display: inline-flex;
+    flex-direction: column;
 }

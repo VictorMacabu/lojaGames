@@ -25,36 +25,41 @@ const routes: Routes = [
   {
     path: 'cardGame', component: CardGameComponent
   },
+ // inicio rotas card game Pokemon
   {
-    path: 'pokemon', component: PokemonCardComponent
+    path: 'cardGame/pokemon', component: PokemonCardComponent
   },
   {
-    path: "blister", component: BlisterComponent
+    path: "cardGame/pokemon/blister", component: BlisterComponent
   },
   {
-    path: "boxter", component: BoxterComponent
+    path: "cardGame/pokemon/boxter", component: BoxterComponent
   },
   {
-    path: "box_especial", component: BoxEspecialComponent
+    path: "cardGame/pokemon/box_especial", component: BoxEspecialComponent
   },
   {
-    path: "kit_treinador", component: KitTreinadorComponent
+    path: "cardGame/pokemon/kit_treinador", component: KitTreinadorComponent
   },
   {
-    path: "latas", component: LatasComponent
+    path: "cardGame/pokemon/latas", component: LatasComponent
+  },
+  // fim rotas card game Pokemon
+
+  // inicio rotas card game Yugioh
+  {
+    path: "cardGame/yugioh", component: YugiohCardComponent
   },
   {
-    path: "booster", component: BoosterComponent
+    path: "cardGame/yugioh/booster", component: BoosterComponent
   },
   {
-    path: "deck_inicial", component: DeckInicialComponent
+    path: "cardGame/yugioh/deck_inicial", component: DeckInicialComponent
   },
   {
-    path: "box", component: BoxComponent
+    path: "cardGame/yugioh/box", component: BoxComponent
   },
-  {
-    path: "yugioh", component: YugiohCardComponent
-  },
+  // fim rotas card game Yugioh
   {
     path: "**", component: PageNotFoundComponent 
   },

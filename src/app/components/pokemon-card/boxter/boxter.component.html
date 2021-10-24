@@ -8,3 +8,11 @@
         </ol>
     </nav>
 </div>
+<div class="container">
+    <div class="card cardSpace" *ngFor="let boxter of boxteres" >
+        <img class="imgJustfy" [src]="boxter.pathImage" alt="imagem Produto">
+        <h4 class="cardName"> {{boxter.tipe}} </h4>
+        <h5 class="cardDescription">{{boxter.name}}</h5>
+        <p class="price">{{boxter.price}}</p>
+    </div>
+</div>

@@ -1,3 +1,5 @@
+import { BoxterComponent } from './components/pokemon-card/boxter/boxter.component';
+import { BoxEspecialComponent } from './components/pokemon-card/box-especial/box-especial.component';
 import { BlisterComponent } from './components/pokemon-card/blister/blister.component';
 import { PageNotFoundComponent } from './components/page-not-found/page-not-found.component';
 import { PokemonCardComponent } from './components/pokemon-card/pokemon-card.component';
@@ -22,6 +24,12 @@ const routes: Routes = [
   },
   {
     path: "blister", component: BlisterComponent
+  },
+  {
+    path: "boxter", component: BoxterComponent
+  },
+  {
+    path: "box_especial", component: BoxEspecialComponent
   },
   {
     path: "**", component: PageNotFoundComponent 

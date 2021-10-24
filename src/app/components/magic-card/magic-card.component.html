@@ -1,1 +1,18 @@
-<p>magic-card works!</p>
+<nav aria-label="breadcrumb">
+    <ol class="breadcrumb">
+      <li class="breadcrumb-item"><a [routerLink]="['/home']" routerLinkActive="active">Home</a></li>
+      <li class="breadcrumb-item"><a [routerLink]="['/cardGame']" routerLinkActive="active">Card Games</a></li>
+      <li class="breadcrumb-item" [routerLink]="['/magic']" routerLinkActive="active">Magic</li>
+    </ol>
+  </nav>
+<p>Magic all categories route ok!</p>
+<div class="container">
+    <a href=""><h6>Booster</h6></a>
+    <app-booster></app-booster>
+    <a href=""><h6>Bundle</h6></a>
+    <app-box></app-box>
+    <a href=""><h6>Deck Pronto</h6></a>
+    <app-deck-inicial></app-deck-inicial>
+    <a href=""><h6>Duel Decks</h6></a>
+    <app-deck-inicial></app-deck-inicial>
+</div>

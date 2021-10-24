@@ -27,6 +27,9 @@ import { LatasComponent } from './components/pokemon-card/latas/latas.component'
 import { BoosterComponent } from './components/yugioh-card/booster/booster.component';
 import { BoxComponent } from './components/yugioh-card/box/box.component';
 import { DeckInicialComponent } from './components/yugioh-card/deck-inicial/deck-inicial.component';
+import { BundleComponent } from './components/magic-card/bundle/bundle.component';
+import { DuelDecksComponent } from './components/magic-card/duel-decks/duel-decks.component';
+import { DeckProntoComponent } from './components/magic-card/deck-pronto/deck-pronto.component';
 
 @NgModule({
   declarations: [
@@ -50,6 +53,9 @@ import { DeckInicialComponent } from './components/yugioh-card/deck-inicial/deck
     BoosterComponent,
     BoxComponent,
     DeckInicialComponent,
+    BundleComponent,
+    DuelDecksComponent,
+    DeckProntoComponent,
   ],
   imports: [
     BrowserModule,

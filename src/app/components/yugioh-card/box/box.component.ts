@@ -78,7 +78,7 @@ export class BoxComponent implements OnInit {
       tipe: 'Box Booster',
       pathImage: 'assets/imgYugioh/box/Guardiões Dimencionais.png',
       name: 'Guardiões Dimencionais',
-      price: 'R$ 79,90',
+      price: 'R$ 399,90',
     },
     {
       tipe: 'Box Booster',
@@ -102,31 +102,31 @@ export class BoxComponent implements OnInit {
       tipe: 'Box Booster',
       pathImage: 'assets/imgYugioh/box/Neotempestade negra edição especial.png',
       name: 'Neotempestade negra edição especial',
-      price: 'R$ 79,90',
+      price: 'R$ 449,90',
     },
     {
       tipe: 'Box Booster',
       pathImage: 'assets/imgYugioh/box/Pacote estelar batalha real.png',
       name: 'Pacote estelar batalha real',
-      price: 'R$ 79,90',
+      price: 'R$ 279,90',
     },
     {
       tipe: 'Box Booster',
       pathImage: 'assets/imgYugioh/box/Pacote estelar vrains.png',
       name: 'Pacote estelar vrains',
-      price: 'R$ 79,90',
+      price: 'R$ 199,90',
     },
     {
       tipe: 'Box Booster',
       pathImage: 'assets/imgYugioh/box/Punhos mecânicos (Fists of the Gadgets).png',
       name: 'Punhos mecânicos (Fists of the Gadgets)',
-      price: 'R$ 79,90',
+      price: 'R$ 229,90',
     },
     {
       tipe: 'Box Booster',
       pathImage: 'assets/imgYugioh/box/Vórtice Ardente (Blazing Vortex).png',
       name: 'Vórtice Ardente (Blazing Vortex)',
-      price: 'R$ 79,90',
+      price: 'R$ 552,90',
     },
   ]
 

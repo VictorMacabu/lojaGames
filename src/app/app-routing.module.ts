@@ -1,3 +1,4 @@
+import { MagicCardComponent } from './components/magic-card/magic-card.component';
 import { BoxComponent } from './components/yugioh-card/box/box.component';
 import { DeckInicialComponent } from './components/yugioh-card/deck-inicial/deck-inicial.component';
 import { BoosterComponent } from './components/yugioh-card/booster/booster.component';
@@ -24,6 +25,10 @@ const routes: Routes = [
   },
   {
     path: 'cardGame', component: CardGameComponent
+  },
+ // inicio rotas card game Magic 
+  {
+    path: 'cardGame/magic', component: MagicCardComponent
   },
  // inicio rotas card game Pokemon
   {

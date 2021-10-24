@@ -4,8 +4,9 @@ body {
     font-family: 'Poppins', sans-serif;
     background: #fafafa
 }
-
-
+#sidebar{
+    background-color: #023364;
+}
 .menu {
     background-color: #023364;
     width: 240px;

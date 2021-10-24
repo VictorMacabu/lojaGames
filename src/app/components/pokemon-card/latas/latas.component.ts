@@ -12,19 +12,19 @@ export class LatasComponent implements OnInit {
       tipe: 'Latas',
       pathImage: 'assets/imgPokemon/latas/Lata Pokemon Destinos Ocultos Charizard GX.png',
       name: 'Lata Pokemon Destinos Ocultos Charizard GX',
-      price: 'R$ 89,90',
+      price: 'R$ 79,90',
     },
     {
       tipe: 'Latas',
       pathImage: 'assets/imgPokemon/latas/Lata Pokemon Destinos Ocultos Gyarados GX.png',
       name: 'Lata Pokemon Destinos Ocultos Gyarados GX',
-      price: 'R$ 89,90',
+      price: 'R$ 79,90',
     },
     {
       tipe: 'Latas',
       pathImage: 'assets/imgPokemon/latas/Lata Pokemon Destinos Ocultos Raichu GX.png',
       name: 'Lata Pokemon Destinos Ocultos Raichu GX',
-      price: 'R$ 89,90',
+      price: 'R$ 79,90',
     },
     {
       tipe: 'Latas',
@@ -60,7 +60,7 @@ export class LatasComponent implements OnInit {
       tipe: 'Latas',
       pathImage: 'assets/imgPokemon/latas/Mini Lata Pokémon Poder de Kanto Portugues.png',
       name: 'Mini Lata Pokémon Poder de Kanto Portugues',
-      price: 'R$ 89,90',
+      price: 'R$ 39,90',
     },    
   ]
 

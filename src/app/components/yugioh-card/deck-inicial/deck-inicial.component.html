@@ -1,0 +1,18 @@
+<div class="container">
+    <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a [routerLink]="['/home']" routerLinkActive="active">Home</a></li>
+            <li class="breadcrumb-item"><a [routerLink]="['/cardGame']" routerLinkActive="active">Card Games</a></li>
+            <li class="breadcrumb-item"><a [routerLink]="['/yugioh']" routerLinkActive="active">Yu-Gi-Oh!</a></li>
+            <li class="breadcrumb-item" [routerLink]="['/deck_inicial']" routerLinkActive="active">Deck Inicial</li>
+        </ol>
+    </nav>
+</div>
+<div class="container">
+    <div class="card cardSpace" *ngFor="let firstDeck of firstDecks" >
+        <img class="imgJustfy" [src]="firstDeck.pathImage" alt="imagem Produto">
+        <h4 class="cardName"> {{firstDeck.tipe}} </h4>
+        <h5 class="cardDescription">{{firstDeck.name}}</h5>
+        <p class="price">{{firstDeck.price}}</p>
+    </div>
+</div>

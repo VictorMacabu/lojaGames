@@ -20,11 +20,11 @@
                             <li> <a [routerLink]="['/kit_treinador']" routerLinkActive="active">Kit Treinador</a> </li>
                             <li> <a [routerLink]="['/latas']" routerLinkActive="active">Latas</a> </li>
                         </ul>
-                    <li> <a href="#" class="dropdown-toggle">Yu-Gi-Oh!</a>
+                    <li> <a [routerLink]="['/yugioh']" routerLinkActive="active" class="dropdown-toggle">Yu-Gi-Oh!</a>
                         <ul class="submenu">
-                            <li> <a href="#">Booster</a> </li>
-                            <li> <a href="#">Box</a> </li>
-                            <li> <a href="#">Deck inicial</a> </li>
+                            <li> <a [routerLink]="['/booster']" routerLinkActive="active">Booster</a> </li>
+                            <li> <a [routerLink]="['/box']" routerLinkActive="active">Box</a> </li>
+                            <li> <a [routerLink]="['/deck_inicial']" routerLinkActive="active">Deck inicial</a> </li>
                         </ul>
                 </ul>
             </li>

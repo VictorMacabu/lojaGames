@@ -24,6 +24,9 @@ import { BoxEspecialComponent } from './components/pokemon-card/box-especial/box
 import { BoxterComponent } from './components/pokemon-card/boxter/boxter.component';
 import { KitTreinadorComponent } from './components/pokemon-card/kit-treinador/kit-treinador.component';
 import { LatasComponent } from './components/pokemon-card/latas/latas.component';
+import { BoosterComponent } from './components/yugioh-card/booster/booster.component';
+import { BoxComponent } from './components/yugioh-card/box/box.component';
+import { DeckInicialComponent } from './components/yugioh-card/deck-inicial/deck-inicial.component';
 
 @NgModule({
   declarations: [
@@ -44,6 +47,9 @@ import { LatasComponent } from './components/pokemon-card/latas/latas.component'
     BoxterComponent,
     KitTreinadorComponent,
     LatasComponent,
+    BoosterComponent,
+    BoxComponent,
+    DeckInicialComponent,
   ],
   imports: [
     BrowserModule,

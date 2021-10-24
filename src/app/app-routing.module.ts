@@ -1,3 +1,7 @@
+import { BoxComponent } from './components/yugioh-card/box/box.component';
+import { DeckInicialComponent } from './components/yugioh-card/deck-inicial/deck-inicial.component';
+import { BoosterComponent } from './components/yugioh-card/booster/booster.component';
+import { YugiohCardComponent } from './components/yugioh-card/yugioh-card.component';
 import { LatasComponent } from './components/pokemon-card/latas/latas.component';
 import { KitTreinadorComponent } from './components/pokemon-card/kit-treinador/kit-treinador.component';
 import { BoxterComponent } from './components/pokemon-card/boxter/boxter.component';
@@ -38,6 +42,18 @@ const routes: Routes = [
   },
   {
     path: "latas", component: LatasComponent
+  },
+  {
+    path: "booster", component: BoosterComponent
+  },
+  {
+    path: "deck_inicial", component: DeckInicialComponent
+  },
+  {
+    path: "box", component: BoxComponent
+  },
+  {
+    path: "yugioh", component: YugiohCardComponent
   },
   {
     path: "**", component: PageNotFoundComponent 

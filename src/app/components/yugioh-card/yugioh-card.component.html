@@ -1,1 +1,16 @@
-<p>yugioh-card works!</p>
+<nav aria-label="breadcrumb">
+    <ol class="breadcrumb">
+      <li class="breadcrumb-item"><a [routerLink]="['/home']" routerLinkActive="active">Home</a></li>
+      <li class="breadcrumb-item"><a [routerLink]="['/cardGame']" routerLinkActive="active">Card Games</a></li>
+      <li class="breadcrumb-item" [routerLink]="['/yugioh']" routerLinkActive="active">Yu-Gi-Oh!</li>
+    </ol>
+  </nav>
+<p>yugioh all categories route ok!</p>
+<div class="container">
+    <a href=""><h6>Boosters</h6></a>
+    <app-booster></app-booster>
+    <a href=""><h6>Box</h6></a>
+    <app-box></app-box>
+    <a href=""><h6>Deck Inicial</h6></a>
+    <app-deck-inicial></app-deck-inicial>
+</div>

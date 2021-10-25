@@ -1,7 +1,6 @@
 .navbar{
   position: sticky;
   top: 0;
-  box-shadow: 0 0.5em #fff;
   min-height: 100%;
 }
 .container-fluid{

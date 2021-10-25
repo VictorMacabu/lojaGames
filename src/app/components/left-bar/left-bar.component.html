@@ -5,12 +5,12 @@
             <hr>
             <li> <a [routerLink]="['/cardGame']" routerLinkActive="active" class="dropdown-toggle">Jogos de Carta</a>
                 <ul class="subMenu" id="homeSubmenu">
-                    <li> <a href="#" class="dropdown-toggle">Magic</a>
+                    <li> <a [routerLink]="['/cardGame/magic']" routerLinkActive="active" class="dropdown-toggle">Magic</a>
                         <ul class="subMenu">
-                            <li> <a href="#">Booster</a> </li>
-                            <li> <a href="#">Bundle</a> </li>
-                            <li> <a href="#">Deck Pronto</a> </li>
-                            <li> <a href="#">Duel Decks</a> </li>
+                            <li> <a [routerLink]="['/cardGame/magic']" routerLinkActive="active">Booster</a> </li>
+                            <li> <a [routerLink]="['/cardGame/magic']" routerLinkActive="active">Bundle</a> </li>
+                            <li> <a [routerLink]="['/cardGame/magic']" routerLinkActive="active">Deck Pronto</a> </li>
+                            <li> <a [routerLink]="['/cardGame/magic']" routerLinkActive="active">Duel Decks</a> </li>
                         </ul>
                     <li> <a [routerLink]="['/cardGame/pokemon']" routerLinkActive="active" class="dropdown-toggle">Pokémon</a>
                         <ul class="subMenu">

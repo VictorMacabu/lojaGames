@@ -1,1 +1,18 @@
-<p>deck-pronto works!</p>
+<div class="container">
+    <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a [routerLink]="['/home']" routerLinkActive="active">Home</a></li>
+            <li class="breadcrumb-item"><a [routerLink]="['/cardGame']" routerLinkActive="active">Card Games</a></li>
+            <li class="breadcrumb-item"><a [routerLink]="['/cardGame/magic']" routerLinkActive="active">Magic</a></li>
+            <li class="breadcrumb-item" [routerLink]="['/cardGame/magic/deck_pronto']" routerLinkActive="active">Deck Pronto</li>
+        </ol>
+    </nav>
+</div>
+<div class="container">
+    <div class="card cardSpace" *ngFor="let deckPronto of decksProntos">
+        <img class="imgJustfy" [src]="deckPronto.pathImage" alt="imagem Produto">
+        <h4 class="cardName"> {{deckPronto.tipe}} </h4>
+        <h5 class="cardDescription">{{deckPronto.name}}</h5>
+        <p class="price">{{deckPronto.price}}</p>
+    </div>
+</div>

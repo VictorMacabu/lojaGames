@@ -1,1 +1,18 @@
-<p>duel-decks works!</p>
+<div class="container">
+    <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a [routerLink]="['/home']" routerLinkActive="active">Home</a></li>
+            <li class="breadcrumb-item"><a [routerLink]="['/cardGame']" routerLinkActive="active">Card Games</a></li>
+            <li class="breadcrumb-item"><a [routerLink]="['/cardGame/magic']" routerLinkActive="active">Magic</a></li>
+            <li class="breadcrumb-item" [routerLink]="['/cardGame/magic/dual_decks']" routerLinkActive="active">Dual Decks</li>
+        </ol>
+    </nav>
+</div>    
+<div class="container">
+    <div class="card cardSpace" *ngFor="let dualDeck of dualDecks">
+        <img class="imgJustfy" [src]="dualDeck.pathImage" alt="imagem Produto">
+        <h4 class="cardName"> {{dualDeck.tipe}} </h4>
+        <h5 class="cardDescription">{{dualDeck.name}}</h5>
+        <p class="price">{{dualDeck.price}}</p>
+    </div>
+</div>

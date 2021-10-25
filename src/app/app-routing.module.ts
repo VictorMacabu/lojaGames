@@ -30,6 +30,8 @@ const routes: Routes = [
   {
     path: 'cardGame/magic', component: MagicCardComponent
   },
+ // fim rotas card game Magic
+ 
  // inicio rotas card game Pokemon
   {
     path: 'cardGame/pokemon', component: PokemonCardComponent

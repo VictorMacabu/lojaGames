@@ -1,1 +1,18 @@
-<p>booster works!</p>
+<div class="container">
+    <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a [routerLink]="['/home']" routerLinkActive="active">Home</a></li>
+            <li class="breadcrumb-item"><a [routerLink]="['/cardGame']" routerLinkActive="active">Card Games</a></li>
+            <li class="breadcrumb-item"><a [routerLink]="['/cardGame/magic']" routerLinkActive="active">Magic</a></li>
+            <li class="breadcrumb-item" [routerLink]="['cardGame/magic/booster']" routerLinkActive="active">Booster</li>
+        </ol>
+    </nav>
+</div>
+<div class="container">
+    <div class="card cardSpace" *ngFor="let booster of boosteres">
+        <img class="imgJustfy" [src]="booster.pathImage" alt="imagem Produto">
+        <h4 class="cardName"> {{booster.tipe}} </h4>
+        <h5 class="cardDescription">{{booster.name}}</h5>
+        <p class="price">{{booster.price}}</p>
+    </div>
+</div>

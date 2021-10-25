@@ -1,0 +1,50 @@
+.breadcrumb{
+    margin-top: 5px;
+}
+.container{
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+.card{
+    position:static ;
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    height: 100%;
+    border: 0;
+}
+.card img {
+    border-radius: 15px;
+    max-width: 100%;
+    max-height: 75%;
+}
+.cardName{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: smaller;
+    margin-bottom: -5px;
+}
+.cardDescription{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    font-weight: 500;
+    font-size: 18px;
+    margin-top: 8px;
+    margin-bottom: 0;
+}
+.price{
+    margin: 3px;
+}
+.cardSpace{
+    border: 2px #023364 solid;
+    display: inline-flex;
+    justify-content: space-around;
+    margin: 20px;
+    padding: 10px;
+    height: 380px;
+    width: 220px;
+}
+.cardSpace:hover{
+    box-shadow: 0 0 1.5em #023364 ;
+}

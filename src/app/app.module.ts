@@ -30,6 +30,7 @@ import { DeckInicialComponent } from './components/yugioh-card/deck-inicial/deck
 import { BundleComponent } from './components/magic-card/bundle/bundle.component';
 import { DuelDecksComponent } from './components/magic-card/duel-decks/duel-decks.component';
 import { DeckProntoComponent } from './components/magic-card/deck-pronto/deck-pronto.component';
+import { MagicBoosterComponent } from './components/magic-card/booster/booster.component';
 
 @NgModule({
   declarations: [
@@ -56,6 +57,7 @@ import { DeckProntoComponent } from './components/magic-card/deck-pronto/deck-pr
     BundleComponent,
     DuelDecksComponent,
     DeckProntoComponent,
+    MagicBoosterComponent,
   ],
   imports: [
     BrowserModule,

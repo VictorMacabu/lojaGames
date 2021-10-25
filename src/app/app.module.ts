@@ -9,7 +9,6 @@ import { LeftBarComponent } from './components/left-bar/left-bar.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
 import { FormsModule } from '@angular/forms';
 import { CardColectionComponent } from './components/card-colection/card-colection.component';
-import { CardsComponent } from './components/cards/cards.component';
 import { HomeComponent } from './components/home/home.component';
 import { PageNotFoundComponent } from './components/page-not-found/page-not-found.component';
 import { CardGameComponent } from './components/card-game/card-game.component';
@@ -39,7 +38,6 @@ import { MagicBoosterComponent } from './components/magic-card/booster/booster.c
     BreadCrumbComponent,
     NavbarComponent,
     CardColectionComponent,
-    CardsComponent,
     HomeComponent,
     PageNotFoundComponent,
     CardGameComponent,

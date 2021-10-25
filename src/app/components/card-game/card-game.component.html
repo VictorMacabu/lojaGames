@@ -1,5 +1,14 @@
-<div class="cardColection">
-    <div class="cardSpace"><app-cards></app-cards></div>
-    <div class="cardSpace"><app-cards></app-cards></div>
-    <div class="cardSpace"><app-cards></app-cards></div>
+<div class="container">
+    <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a [routerLink]="['/home']" routerLinkActive="active">Home</a></li>
+            <li class="breadcrumb-item" [routerLink]="['/cardGame']" routerLinkActive="active">Card Games</li>
+        </ol>
+    </nav>
+</div>
+<div class="container justify-content-between">
+    <div class="card cardSpace" *ngFor="let section of sections" [routerLink]="[ section.router]" >
+        <img class="imgJustfy" [src]="section.pathImage" alt="imagem Produto">
+        <h4 class="cardName"> {{section.tipe}} </h4>
+    </div>
 </div>

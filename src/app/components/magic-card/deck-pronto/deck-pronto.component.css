@@ -17,8 +17,8 @@
 }
 .card img {
     border-radius: 15px;
-    max-width: 95%;
-    max-height: 65%;
+    max-width: 120%;
+    max-height: 85%;
 }
 .cardName{
     font-family:Arial, Helvetica, sans-serif;

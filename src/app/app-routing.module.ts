@@ -1,3 +1,7 @@
+import { MagicBoosterComponent } from './components/magic-card/booster/booster.component'
+import { BundleComponent } from './components/magic-card/bundle/bundle.component';
+import { DeckProntoComponent } from './components/magic-card/deck-pronto/deck-pronto.component';
+import { DuelDecksComponent } from './components/magic-card/duel-decks/duel-decks.component';
 import { MagicCardComponent } from './components/magic-card/magic-card.component';
 import { BoxComponent } from './components/yugioh-card/box/box.component';
 import { DeckInicialComponent } from './components/yugioh-card/deck-inicial/deck-inicial.component';
@@ -18,7 +22,7 @@ import { RouterModule, Routes } from '@angular/router';
 
 const routes: Routes = [
   {
-    path: '',redirectTo: '/home', pathMatch: 'full' 
+    path: '', redirectTo: '/home', pathMatch: 'full'
   },
   {
     path: 'home', component: HomeComponent
@@ -26,13 +30,25 @@ const routes: Routes = [
   {
     path: 'cardGame', component: CardGameComponent
   },
- // inicio rotas card game Magic 
+  // inicio rotas card game Magic 
   {
     path: 'cardGame/magic', component: MagicCardComponent
   },
- // fim rotas card game Magic
- 
- // inicio rotas card game Pokemon
+  {
+    path: 'cardGame/magic/duel_decks', component: DuelDecksComponent
+  },
+  {
+    path: 'cardGame/magic/deck_pronto', component: DeckProntoComponent
+  },
+  {
+    path: 'cardGame/magic/bundle', component: BundleComponent
+  },
+  {
+    path: 'cardGame/magic/booster', component: MagicBoosterComponent
+  },
+  // fim rotas card game Magic
+
+  // inicio rotas card game Pokemon
   {
     path: 'cardGame/pokemon', component: PokemonCardComponent
   },
@@ -68,9 +84,9 @@ const routes: Routes = [
   },
   // fim rotas card game Yugioh
   {
-    path: "**", component: PageNotFoundComponent 
+    path: "**", component: PageNotFoundComponent
   },
-  
+
 ];
 @NgModule({
   imports: [RouterModule.forRoot(routes)],

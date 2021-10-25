@@ -1,6 +1,5 @@
 .navbar{
-  position: sticky;
-  top: 0;
+  padding: 4px;
   min-height: 100%;
 }
 .container-fluid{
@@ -15,8 +14,4 @@ h1 {
   font-size: 45px;
   text-align: center;
   font-weight: lighter;
-}
-.navbar ,.navbar-expand-sm, .navbar-dark, .bg-dark{
-padding: 4px;
-
 }

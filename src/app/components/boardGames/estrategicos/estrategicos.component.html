@@ -1,1 +1,17 @@
-<p>estrategicos works!</p>
+<div class="container">
+    <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a [routerLink]="['/home']" routerLinkActive="active">Home</a></li>
+            <li class="breadcrumb-item"><a [routerLink]="['/boardGame']" routerLinkActive="active">Jogos de Tabuleiro</a></li>
+            <li class="breadcrumb-item" [routerLink]="['/boardGame/estrategicos']" routerLinkActive="active">Estrategicos</li>
+        </ol>
+    </nav>
+</div>
+<div class="container">
+    <div class="card cardSpace" *ngFor="let estrategico of estrategicos">
+        <img class="imgJustfy" [src]="estrategico.pathImage" alt="imagem Produto">
+        <h4 class="cardName"> {{estrategico.tipe}} </h4>
+        <h5 class="cardDescription">{{estrategico.name}}</h5>
+        <p class="price">{{estrategico.price}}</p>
+    </div>
+</div>

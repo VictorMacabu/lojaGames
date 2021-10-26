@@ -6,7 +6,7 @@
         </ol>
     </nav>
 </div>
-<div class="container justify-content-between">
+<div class="container  justify-content-around ">
     <div class="card cardSpace" *ngFor="let section of sections" [routerLink]="[ section.router]" >
         <img class="imgJustfy" [src]="section.pathImage" alt="imagem Produto">
         <h4 class="cardName"> {{section.tipe}} </h4>

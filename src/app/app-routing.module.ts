@@ -1,3 +1,9 @@
+import { FuturistaComponent } from './components/rpgBooks/futurista/futurista.component';
+import { MedievalComponent } from './components/rpgBooks/medieval/medieval.component';
+import { TerrorComponent } from './components/rpgBooks/terror/terror.component';
+import { RpgBooksComponent } from './components/rpgBooks/rpg-books/rpg-books.component';
+import { CooperativosComponent } from './components/boardGames/cooperativos/cooperativos.component';
+import { EstrategicosComponent } from './components/boardGames/estrategicos/estrategicos.component';
 import { BordGamesComponent } from './components/boardGames/bord-games/bord-games.component';
 import { MagicBoosterComponent } from './components/magic-card/booster/booster.component'
 import { BundleComponent } from './components/magic-card/bundle/bundle.component';
@@ -33,6 +39,9 @@ const routes: Routes = [
   },
   {
     path: 'boardGame', component: BordGamesComponent
+  },
+  {
+    path: 'rpgBooks', component: RpgBooksComponent
   },
   // inicio rotas card game Magic 
   {
@@ -87,6 +96,28 @@ const routes: Routes = [
     path: "cardGame/yugioh/box", component: BoxComponent
   },
   // fim rotas card game Yugioh
+
+  // inicio rotas boardGames
+  {
+    path: 'boardGame/estrategicos', component: EstrategicosComponent
+  },
+  {
+    path: 'boardGame/cooperativos', component: CooperativosComponent
+  },
+  // fim rotas boardGames
+
+  // inicio rotas rpgBooks
+  {
+    path: 'rpgBooks/futuristas', component: FuturistaComponent
+  },
+  {
+    path: 'rpgBooks/medievais', component: MedievalComponent
+  },
+  {
+    path: 'rpgBooks/terror', component: TerrorComponent
+  },
+  // fim rotas rpgBooks
+
   {
     path: "**", component: PageNotFoundComponent
   },

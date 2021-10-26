@@ -1,1 +1,17 @@
-<p>cooperativos works!</p>
+<div class="container">
+    <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a [routerLink]="['/home']" routerLinkActive="active">Home</a></li>
+            <li class="breadcrumb-item"><a [routerLink]="['/boardGame']" routerLinkActive="active">Jogos de Tabuleiro</a></li>
+            <li class="breadcrumb-item" [routerLink]="['/boardGame/cooperativos']" routerLinkActive="active">Cooperativos</li>
+        </ol>
+    </nav>
+</div>
+<div class="container">
+    <div class="card cardSpace" *ngFor="let cooperativo of cooperativos">
+        <img class="imgJustfy" [src]="cooperativo.pathImage" alt="imagem Produto">
+        <h4 class="cardName"> {{cooperativo.tipe}} </h4>
+        <h5 class="cardDescription">{{cooperativo.name}}</h5>
+        <p class="price">{{cooperativo.price}}</p>
+    </div>
+</div>

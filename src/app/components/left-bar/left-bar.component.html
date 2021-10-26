@@ -34,11 +34,11 @@
                     <li> <a [routerLink]="['/boardGame/estrategicos']" routerLinkActive="active">Estratégicos</a>
                 </ul>
             </li>
-            <li> <a href="#homeSubmenu" class="dropdown-toggle">Livros de RPG</a>
+            <li> <a [routerLink]="['/rpgBooks']" routerLinkActive="active" class="dropdown-toggle">Livros de RPG</a>
                 <ul class="subMenu" id="homeSubmenu">
-                    <li> <a href="#">Medieval</a>
-                    <li> <a href="#">Terror</a>
-                    <li> <a href="#">Futurista</a>
+                    <li> <a [routerLink]="['/rpgBooks/medievais']" routerLinkActive="active">Medieval</a>
+                    <li> <a [routerLink]="['/rpgBooks/terror']" routerLinkActive="active">Terror</a>
+                    <li> <a [routerLink]="['/rpgBooks/futuristas']" routerLinkActive="active">Futurista</a>
                 </ul>
             </li>
         </ul>

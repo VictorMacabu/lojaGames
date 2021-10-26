@@ -1,8 +1,12 @@
 @import "https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700";
+.wrapper{
+    display: inline-flex;
 
+}
 body {
     font-family: 'Poppins', sans-serif;
-    background: #fafafa
+    background: #fafafa;
+    align-items: flex-end;
 }
 #sidebar{
     background-color: #023364;
@@ -90,6 +94,7 @@ body {
 /* --------- navbar -----------*/
 .content{
     margin-left: 240px;
+    right: 0;
     display: inline-flex;
     flex-direction: column;
 }

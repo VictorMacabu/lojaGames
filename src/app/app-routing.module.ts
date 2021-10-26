@@ -1,3 +1,4 @@
+import { BordGamesComponent } from './components/boardGames/bord-games/bord-games.component';
 import { MagicBoosterComponent } from './components/magic-card/booster/booster.component'
 import { BundleComponent } from './components/magic-card/bundle/bundle.component';
 import { DeckProntoComponent } from './components/magic-card/deck-pronto/deck-pronto.component';
@@ -29,6 +30,9 @@ const routes: Routes = [
   },
   {
     path: 'cardGame', component: CardGameComponent
+  },
+  {
+    path: 'boardGame', component: BordGamesComponent
   },
   // inicio rotas card game Magic 
   {

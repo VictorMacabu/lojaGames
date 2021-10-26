@@ -28,10 +28,10 @@
                         </ul>
                 </ul>
             </li>
-            <li> <a href="#homeSubmenu" class="dropdown-toggle">Jogos de Tabuleiro</a>
+            <li> <a [routerLink]="['/boardGame']" routerLinkActive="active" class="dropdown-toggle">Jogos de Tabuleiro</a>
                 <ul class="subMenu" id="homeSubmenu">
-                    <li> <a href="#">Cooperativos</a>
-                    <li> <a href="#">Estratégicos</a>
+                    <li> <a [routerLink]="['/boardGame/cooperativos']" routerLinkActive="active">Cooperativos</a>
+                    <li> <a [routerLink]="['/boardGame/estrategicos']" routerLinkActive="active">Estratégicos</a>
                 </ul>
             </li>
             <li> <a href="#homeSubmenu" class="dropdown-toggle">Livros de RPG</a>

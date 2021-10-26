@@ -30,7 +30,10 @@ import { BundleComponent } from './components/magic-card/bundle/bundle.component
 import { DuelDecksComponent } from './components/magic-card/duel-decks/duel-decks.component';
 import { DeckProntoComponent } from './components/magic-card/deck-pronto/deck-pronto.component';
 import { MagicBoosterComponent } from './components/magic-card/booster/booster.component';
-
+import { CooperativosComponent } from './components/boardGames/cooperativos/cooperativos.component';
+import { EstrategicosComponent } from './components/boardGames/estrategicos/estrategicos.component';
+import { BordGamesComponent } from './components/boardGames/bord-games/bord-games.component';
+import { RpgBooksComponent } from './components/rpgBooks/rpg-books/rpg-books.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -56,6 +59,10 @@ import { MagicBoosterComponent } from './components/magic-card/booster/booster.c
     DuelDecksComponent,
     DeckProntoComponent,
     MagicBoosterComponent,
+    CooperativosComponent,
+    EstrategicosComponent,
+    BordGamesComponent,
+    RpgBooksComponent,
   ],
   imports: [
     BrowserModule,

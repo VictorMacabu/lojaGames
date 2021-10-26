@@ -1,6 +1,6 @@
 {
   "hosting": {
-    "public": "dist/requests-http",
+    "public": "dist/lojaGames",
     "ignore": [
       "firebase.json",
       "**/.*",

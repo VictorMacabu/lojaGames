@@ -5,12 +5,10 @@
       <li class="breadcrumb-item" [routerLink]="['/cardGame/yugioh']" routerLinkActive="active">Yu-Gi-Oh!</li>
     </ol>
   </nav>
-<p>yugioh all categories route ok!</p>
-<div class="container">
-    <a href=""><h6>Boosters</h6></a>
-    <app-booster></app-booster>
-    <a href=""><h6>Box</h6></a>
-    <app-box></app-box>
-    <a href=""><h6>Deck Inicial</h6></a>
-    <app-deck-inicial></app-deck-inicial>
+
+<div class="container justify-content-between">
+    <div class="card cardSpace" *ngFor="let card of cards" [routerLink]="[ section.router]" >
+        <img class="imgJustfy" [src]="section.pathImage" alt="imagem Produto">
+        <h4 class="cardName"> {{section.tipe}} </h4>
+    </div>
 </div>

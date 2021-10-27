@@ -5,14 +5,11 @@
       <li class="breadcrumb-item" [routerLink]="['/cardGame/magic']" routerLinkActive="active">Magic</li>
     </ol>
   </nav>
-<p>Magic all categories route ok!</p>
-<div class="container">
-    <a href=""><h6>Booster</h6></a>
-    <magicBooster></magicBooster>
-    <a href=""><h6>Bundle</h6></a>
-    <app-bundle></app-bundle>
-    <a href=""><h6>Deck Pronto</h6></a>
-    <app-deck-pronto></app-deck-pronto>
-    <a href=""><h6>Duel Decks</h6></a>
-    <app-duel-decks></app-duel-decks>
+
+</div>
+<div class="container justify-content-between">
+    <div class="card cardSpace" *ngFor="let section of sections" [routerLink]="[ section.router]" >
+        <img class="imgJustfy" [src]="section.pathImage" alt="imagem Produto">
+        <h4 class="cardName"> {{section.tipe}} </h4>
+    </div>
 </div>

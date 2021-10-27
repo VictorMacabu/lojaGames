@@ -49,7 +49,6 @@ import { FuturistaComponent } from './components/rpgBooks/futurista/futurista.co
     CardGameComponent,
     PokemonCardComponent,
     MagicCardComponent,
-    YugiohCardComponent,
     BlisterComponent,
     BoxEspecialComponent,
     BoxterComponent,
@@ -69,6 +68,7 @@ import { FuturistaComponent } from './components/rpgBooks/futurista/futurista.co
     TerrorComponent,
     FuturistaComponent,
     MedievalComponent,
+    YugiohCardComponent,
   ],
   imports: [
     BrowserModule,

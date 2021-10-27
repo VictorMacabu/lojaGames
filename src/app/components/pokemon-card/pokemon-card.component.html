@@ -5,16 +5,10 @@
       <li class="breadcrumb-item" [routerLink]="['/cardGame/pokemon']" routerLinkActive="active">Pokémon</li>
     </ol>
   </nav>
-<p>pokemon-card all categories route ok!</p>
-<div class="container">
-    <a href=""><h6>Blisters</h6></a>
-    <app-blister></app-blister>
-    <a href=""><h6>Box Escpecial</h6></a>
-    <app-box-especial></app-box-especial>
-    <a href=""><h6>Boxter</h6></a>
-    <app-boxter></app-boxter>
-    <a href=""><h6>Kit Treinador</h6></a>
-    <app-kit-treinador></app-kit-treinador>
-    <a href=""><h6>Latas</h6></a>
-    <app-latas></app-latas>
+</div>
+<div class="container justify-content-between">
+    <div class="card cardSpace" *ngFor="let section of sections" [routerLink]="[ section.router]" >
+        <img class="imgJustfy" [src]="section.pathImage" alt="imagem Produto">
+        <h4 class="cardName"> {{section.tipe}} </h4>
+    </div>
 </div>

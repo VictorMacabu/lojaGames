@@ -1,1 +1,17 @@
-<p>terror works!</p>
+<div class="container">
+    <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a [routerLink]="['/home']" routerLinkActive="active">Home</a></li>
+            <li class="breadcrumb-item"><a [routerLink]="['/rpgBooks']" routerLinkActive="active">Livros de RPG</a></li>
+            <li class="breadcrumb-item" [routerLink]="['/rpgBooks/terror']" routerLinkActive="active">Terror</li>
+        </ol>
+    </nav>
+</div>
+<div class="container">
+    <div class="card cardSpace" *ngFor="let terror of terrores">
+        <img class="imgJustfy" [src]="terror.pathImage" alt="imagem Produto">
+        <h4 class="cardName"> {{terror.tipe}} </h4>
+        <h5 class="cardDescription">{{terror.name}}</h5>
+        <p class="price">{{terror.price}}</p>
+    </div>
+</div>

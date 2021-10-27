@@ -34,6 +34,9 @@ import { CooperativosComponent } from './components/boardGames/cooperativos/coop
 import { EstrategicosComponent } from './components/boardGames/estrategicos/estrategicos.component';
 import { BordGamesComponent } from './components/boardGames/bord-games/bord-games.component';
 import { RpgBooksComponent } from './components/rpgBooks/rpg-books/rpg-books.component';
+import { TerrorComponent } from './components/rpgBooks/terror/terror.component';
+import { MedievalComponent } from './components/rpgBooks/medieval/medieval.component';
+import { FuturistaComponent } from './components/rpgBooks/futurista/futurista.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -63,6 +66,9 @@ import { RpgBooksComponent } from './components/rpgBooks/rpg-books/rpg-books.com
     EstrategicosComponent,
     BordGamesComponent,
     RpgBooksComponent,
+    TerrorComponent,
+    FuturistaComponent,
+    MedievalComponent,
   ],
   imports: [
     BrowserModule,

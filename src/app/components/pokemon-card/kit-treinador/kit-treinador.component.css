@@ -16,7 +16,6 @@
     border: 0;
 }
 .card img {
-    border-radius: 15px;
     max-width: 95%;
     max-height: 65%;
 }
@@ -40,10 +39,10 @@
     border: 2px #023364 solid;
     display: inline-flex;
     justify-content: space-around;
-    margin: 20px;
+    margin: 35px;
     padding: 10px;
     height: 380px;
-    width: 220px;
+    width: 280px;
 }
 .cardSpace:hover{
     box-shadow: 0 0 1.5em #023364 ;

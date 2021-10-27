@@ -7,6 +7,24 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HomeComponent implements OnInit {
 
+  sections: any = [
+    {
+      tipe: 'Jogos de Cartas',
+      router: '/cardGame',
+      pathImage: 'assets/imgCardGames/ZBYC2zm.jpeg'
+    },
+    {
+      tipe: 'Jogos de Tabuleiro',
+      router: '/boardGame',
+      pathImage: 'assets/boardGames/pexels-photo-776654.jpeg'
+    },
+    {
+      tipe: 'Livros de RPG',
+      router: '/rpgBooks',
+      pathImage: 'assets/rpgBooks/livros.jpg'
+    }
+  ]
+
   constructor() { }
 
   ngOnInit(): void {

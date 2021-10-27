@@ -1,4 +1,16 @@
-<app-card-colection></app-card-colection>
+<div class="container">
+    <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a [routerLink]="['/home']" routerLinkActive="active">Home</a></li>
+        </ol>
+    </nav>
+</div>
+<div class="container justify-content-between">
+    <div class="card cardSpace" *ngFor="let section of sections" [routerLink]="[ section.router]" >
+        <img class="imgJustfy" [src]="section.pathImage" alt="imagem Produto">
+        <h4 class="cardName"> {{section.tipe}} </h4>
+    </div>
+</div>
 
 <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
     <div class="carousel-indicators">
@@ -9,15 +21,15 @@
 
     <div class="carousel-inner">
         <div class="carousel-item active" >
-            <img src="https://images.tcdn.com.br/img/img_prod/493620/1594855205_magic_colecao_basica_2021_disponivel.jpg" class="d-block w-100" alt="Card-Games-Home">
+            <img src="../../../assets/imgCardGames/carousel-cardGame.png" class="d-block w-100" alt="Card-Games-Home">
         </div>
 
         <div class="carousel-item">
-            <img src="https://images.tcdn.com.br/img/img_prod/493620/1508468414_jogos_de_tabuleiro_devir_board_game.png" class="d-block w-100" alt="Board-Games-Home">
+            <img src="../../../assets/boardGames/carousel- boardGame.jpg" class="d-block w-100" alt="Board-Games-Home">
         </div>
 
         <div class="carousel-item">
-            <img src="https://images.tcdn.com.br/img/img_prod/493620/1566319065_deck_estrutural_revolta_do_foguete.jpg" class="d-block w-100" alt="RPG-Books-Home">
+            <img src="../../../assets/rpgBooks/carousel-rpgBooks.jpg" class="d-block w-100" alt="RPG-Books-Home">
         </div>
     </div>
     

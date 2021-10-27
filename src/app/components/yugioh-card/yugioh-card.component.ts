@@ -9,20 +9,20 @@ export class YugiohCardComponent implements OnInit {
 
   cards: any = [
     {
-      tipe: 'Magic',
-      router: '/cardGame/magic',
-      pathImage: 'assets/imgCardGames/magic.jpg'
+      tipe: 'Booster',
+      pathImage: 'assets/imgYugioh/booster/Vórtice Ardente Blazing Vortex.png',
+      router: '/cardGame/yugioh/booster',
     },
     {
-      tipe: 'Pokémon',
-      router: '/cardGame/pokemon',
-      pathImage: 'assets/imgCardGames/pokemon.jpg'
+      tipe: 'Box Booster',
+      pathImage: 'assets/imgYugioh/box/Guardiões antigos (Ancient guardians).png',
+      router: '/cardGame/yugioh/box',
     },
     {
-      tipe: 'Yu-Gi-Oh!',
-      router: '/cardGame/yugioh',
-      pathImage: 'assets/imgCardGames/yugioh.jpg'
-    }
+      tipe: 'Deck Inicial',
+      pathImage: 'assets/imgYugioh/deck_inicial/Kaiba Reloaded starter.png',
+      router: '/cardGame/yugioh/deck_inicial',
+    },
   ]
 
   constructor() { }

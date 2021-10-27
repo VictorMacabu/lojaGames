@@ -1,3 +1,4 @@
+<div class="container">
 <nav aria-label="breadcrumb">
     <ol class="breadcrumb">
       <li class="breadcrumb-item"><a [routerLink]="['/home']" routerLinkActive="active">Home</a></li>
@@ -5,10 +6,10 @@
       <li class="breadcrumb-item" [routerLink]="['/cardGame/yugioh']" routerLinkActive="active">Yu-Gi-Oh!</li>
     </ol>
   </nav>
-
+</div>
 <div class="container justify-content-between">
-    <div class="card cardSpace" *ngFor="let card of cards" [routerLink]="[ section.router]" >
-        <img class="imgJustfy" [src]="section.pathImage" alt="imagem Produto">
-        <h4 class="cardName"> {{section.tipe}} </h4>
+    <div class="card cardSpace" *ngFor="let card of cards" [routerLink]="[card.router]" >
+        <img class="imgJustfy" [src]="card.pathImage" alt="imagem Produto">
+        <h4 class="cardName"> {{card.tipe}} </h4>
     </div>
 </div>

@@ -7,7 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class MagicCardComponent implements OnInit {
 
-  sections: any = [
+  lugares: any = [
     {
       tipe: 'Magic',
       router: '/cardGame/magic',

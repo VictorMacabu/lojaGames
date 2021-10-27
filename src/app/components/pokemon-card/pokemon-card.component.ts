@@ -7,7 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class PokemonCardComponent implements OnInit {
 
-  sections: any = [
+  opcoes: any = [
     {
       tipe: 'Magic',
       router: '/cardGame/magic',

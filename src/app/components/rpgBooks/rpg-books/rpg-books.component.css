@@ -40,3 +40,6 @@
 .cardSpace:hover{
     box-shadow: 0 0 2em #023364 ;
 }
+.numProdutos{
+    margin-left: 15px;
+}

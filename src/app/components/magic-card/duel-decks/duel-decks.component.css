@@ -6,6 +6,9 @@
     flex-wrap: wrap;
     justify-content: flex-start;
 }
+.numProdutos{
+    margin-left: 15px;
+}
 .card{
     position:static ;
     display: inline-flex;

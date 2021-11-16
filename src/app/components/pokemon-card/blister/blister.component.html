@@ -8,6 +8,7 @@
         </ol>
     </nav>
 </div>
+<p class="numProdutos">Produtos nessa categoria: {{blisters.length}} </p>
 <div class="container">
     <div class="card cardSpace" *ngFor="let blister of blisters">
         <img class="imgJustfy" [src]="blister.pathImage" alt="imagem Produto">

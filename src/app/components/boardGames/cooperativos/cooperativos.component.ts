@@ -64,6 +64,14 @@ export class CooperativosComponent implements OnInit {
     },
   ]
 
+  totalCooperativos(){
+    var contador: any;
+    for (var index in this.cooperativos) {
+     contador = index; 
+    }
+    return parseInt(contador) + 1 ;
+  } 
+
   constructor() { }
 
   ngOnInit(): void {

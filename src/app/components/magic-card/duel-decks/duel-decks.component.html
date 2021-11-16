@@ -8,6 +8,7 @@
         </ol>
     </nav>
 </div>    
+<p class="numProdutos">Produtos nessa categoria: {{dualDecks.length}} </p>
 <div class="container">
     <div class="card cardSpace" *ngFor="let dualDeck of dualDecks">
         <img class="imgJustfy" [src]="dualDeck.pathImage" alt="imagem Produto">

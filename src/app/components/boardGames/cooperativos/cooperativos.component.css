@@ -36,6 +36,9 @@
 .price{
     margin: 3px;
 }
+.numProdutos{
+    margin-left: 15px;
+}
 .cardSpace{
     border: 2px #023364 solid;
     display: inline-flex;

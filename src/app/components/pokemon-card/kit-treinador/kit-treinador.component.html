@@ -8,6 +8,7 @@
         </ol>
     </nav>
 </div>
+<p class="numProdutos">Produtos nessa categoria: {{kities.length}} </p>
 <div class="container">
     <div class="card cardSpace" *ngFor="let kit of kities" >
         <img class="imgJustfy" [src]="kit.pathImage" alt="imagem Produto">

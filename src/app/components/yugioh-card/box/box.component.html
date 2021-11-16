@@ -8,6 +8,7 @@
         </ol>
     </nav>
 </div>
+<p class="numProdutos">Produtos nessa categoria: {{boxes.length}} </p>
 <div class="container">
     <div class="card cardSpace" *ngFor="let box of boxes" >
         <img class="imgJustfy" [src]="box.pathImage" alt="imagem Produto">

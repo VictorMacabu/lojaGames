@@ -7,8 +7,9 @@
         </ol>
     </nav>
 </div>
+<p class="numProdutos">Produtos nessa categoria: {{totalCooperativos()}} </p>
 <div class="container">
-    <div class="card cardSpace" *ngFor="let cooperativo of cooperativos">
+    <div class="card cardSpace" *ngFor="let cooperativo of cooperativos; let i = index">
         <img class="imgJustfy" [src]="cooperativo.pathImage" alt="imagem Produto">
         <h4 class="cardName"> {{cooperativo.tipe}} </h4>
         <h5 class="cardDescription">{{cooperativo.name}}</h5>

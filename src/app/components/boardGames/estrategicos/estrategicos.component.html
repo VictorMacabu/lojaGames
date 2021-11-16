@@ -7,6 +7,7 @@
         </ol>
     </nav>
 </div>
+<p class="numProdutos">Produtos nessa categoria: {{estrategicos.length}} </p>
 <div class="container">
     <div class="card cardSpace" *ngFor="let estrategico of estrategicos">
         <img class="imgJustfy" [src]="estrategico.pathImage" alt="imagem Produto">

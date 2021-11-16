@@ -8,6 +8,7 @@
         </ol>
     </nav>
 </div>
+<p class="numProdutos">Produtos nessa categoria: {{boosters.length}} </p>
 <div class="container">
     <div class="card cardSpace" *ngFor="let booster of boosters" >
         <img class="imgJustfy" [src]="booster.pathImage" alt="imagem Produto">
